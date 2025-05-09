@@ -7,6 +7,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
 import Categories from "./pages/Categories";
 import ErrorCategory from "./pages/ErrorCategory";
+import ErrorDetails from "./pages/ErrorDetails";
 import Guidelines from "./pages/Guidelines";
 import NotFound from "./pages/NotFound";
 
@@ -23,6 +24,7 @@ const App = () => (
           <Route path="/categories" element={<Categories />} />
           <Route path="/guidelines" element={<Guidelines />} />
           <Route path="/category/:id" element={<ErrorCategory />} />
+          <Route path="/error/:id" element={<ErrorDetails />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>

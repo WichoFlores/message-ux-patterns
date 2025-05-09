@@ -42,6 +42,7 @@ const Header = () => {
           <Link to="/" className="text-sm font-medium hover:text-primary transition-colors">Home</Link>
           <Link to="/guidelines" className="text-sm font-medium hover:text-primary transition-colors">UX Guidelines</Link>
           <Link to="/categories" className="text-sm font-medium hover:text-primary transition-colors">Error Categories</Link>
+          <Link to="/about" className="text-sm font-medium hover:text-primary transition-colors">About</Link>
         </nav>
 
         {/* Search (Desktop) */}
@@ -92,6 +93,7 @@ const Header = () => {
               <Link to="/" className="text-sm font-medium" onClick={() => setIsMenuOpen(false)}>Home</Link>
               <Link to="/guidelines" className="text-sm font-medium" onClick={() => setIsMenuOpen(false)}>UX Guidelines</Link>
               <Link to="/categories" className="text-sm font-medium" onClick={() => setIsMenuOpen(false)}>Error Categories</Link>
+              <Link to="/about" className="text-sm font-medium" onClick={() => setIsMenuOpen(false)}>About</Link>
             </nav>
           </div>
         </div>

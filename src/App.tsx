@@ -10,6 +10,7 @@ import ErrorCategory from "./pages/ErrorCategory";
 import ErrorDetails from "./pages/ErrorDetails";
 import Guidelines from "./pages/Guidelines";
 import Search from "./pages/Search";
+import About from "./pages/About";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -27,6 +28,7 @@ const App = () => (
           <Route path="/category/:id" element={<ErrorCategory />} />
           <Route path="/error/:id" element={<ErrorDetails />} />
           <Route path="/search" element={<Search />} />
+          <Route path="/about" element={<About />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>

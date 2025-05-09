@@ -91,15 +91,15 @@ const ErrorDetails = () => {
             </div>
             
             {/* Good Example */}
-            <div className="bg-purple-50 rounded-lg p-6 border border-purple-200">
+            <div className="bg-success/5 rounded-lg p-6 border border-success/20">
               <div className="flex items-center gap-2 mb-4">
-                <CheckCircle2 className="h-5 w-5 text-purple-600" />
-                <h2 className="text-xl font-semibold text-purple-800">Good Example</h2>
+                <CheckCircle2 className="h-5 w-5 text-success" />
+                <h2 className="text-xl font-semibold">Good Example</h2>
               </div>
               <div className="bg-white rounded-md p-4 mb-4 border shadow-sm">
-                <p className="font-medium text-purple-900">{error.goodExample.message}</p>
+                <p className="font-medium">{error.goodExample.message}</p>
               </div>
-              <p className="text-purple-700">{error.goodExample.explanation}</p>
+              <p className="text-muted-foreground">{error.goodExample.explanation}</p>
               {error.goodExample.image && (
                 <div className="mt-4">
                   <img 

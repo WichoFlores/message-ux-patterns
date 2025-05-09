@@ -5,6 +5,7 @@ import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
+import Categories from "./pages/Categories";
 import ErrorCategory from "./pages/ErrorCategory";
 import Guidelines from "./pages/Guidelines";
 import NotFound from "./pages/NotFound";
@@ -19,6 +20,7 @@ const App = () => (
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Index />} />
+          <Route path="/categories" element={<Categories />} />
           <Route path="/guidelines" element={<Guidelines />} />
           <Route path="/category/:id" element={<ErrorCategory />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}

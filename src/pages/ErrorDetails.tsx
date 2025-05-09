@@ -90,10 +90,10 @@ const ErrorDetails = () => {
               )}
             </div>
             
-            {/* Good Example */}
-            <div className="bg-success/5 rounded-lg p-6 border border-success/20">
+            {/* Good Example - Now using green colors */}
+            <div className="bg-good-light rounded-lg p-6 border border-good/20">
               <div className="flex items-center gap-2 mb-4">
-                <CheckCircle2 className="h-5 w-5 text-success" />
+                <CheckCircle2 className="h-5 w-5 text-good-dark" />
                 <h2 className="text-xl font-semibold">Good Example</h2>
               </div>
               <div className="bg-white rounded-md p-4 mb-4 border shadow-sm">

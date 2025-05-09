@@ -9,7 +9,7 @@ This project is inspired by the article [How to write error messages that actual
 
 ## Project info
 
-**URL**: https://lovable.dev/projects/64bea359-5154-4201-b0b4-70c342677b13
+**Published URL**: https://error-messages-ux.lovable.app
 
 ## How can I edit this code?
 
